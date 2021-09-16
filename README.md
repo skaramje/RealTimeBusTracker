@@ -5,7 +5,7 @@ API access token is personal and should be be accessed by creating an account wi
 
 Installation: Save the html, css, javascript files in one folder. Drag and drop the html file in chrome browser to run the code.  Click on the button 'Real Time Bus Tracker' to start tracking/
 
-Usage: Click on the button on the chrome browser to get it to start tracking
+Usage: Click on the button on the chrome browser to get it to start tracking.  The first live location will appear 15 seconds after clicking the button.  The console window will also print the longitude and latitude of the bus along with the time that it printed those values.
 
 Support: For any questions, message me on linkedin: https://www.linkedin.com/in/simrat-karamjeet-8309784/
 
