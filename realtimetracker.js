@@ -13,33 +13,33 @@ var marker = new mapboxgl.Marker()
      .addTo(map);
 
 function move(){
-    async function run(){
+     async function run(){
      const locations = await getBusLocations();
      const latestLocation = locations[0];
      return latestLocation;
-    }
+  }
 
-    async function getBusLocations(){
+async function getBusLocations(){
     const url = 'https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip';
     const response = await fetch(url);
     const json     = await response.json(); //extract the data 
     return json.data; 
-    }
+}
 
-    var livelocation = run();
-    var latitude = 0;
-    var longitude = 0;
+var livelocation = run();
+var latitude = 0;
+var longitude = 0;
 
-    livelocation.then((value) => {
+livelocation.then((value) => {
     latitude = value.attributes.latitude;
     longitude = value.attributes.longitude;  
-    })
+})
        
     
-    setTimeout(()=>{
-        marker.setLngLat([longitude, latitude]);
-        console.log(`[${latitude}, ${longitude}]`);
-        console.log(new Date());
-        move(); 
-    }, 15000);
+setTimeout(()=>{
+     marker.setLngLat([longitude, latitude]);
+     console.log(`[${latitude}, ${longitude}]`);
+     console.log(new Date());
+     move(); 
+   }, 15000);
 }
