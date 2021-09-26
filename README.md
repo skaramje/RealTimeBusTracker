@@ -1,4 +1,4 @@
-# RealTimeBusTracker
+# Real Time Bus Tracker
 Tracks the bus location of a bus in route 1 (from MIT to Harvard) in realtime [To preview click here](https://raw.githack.com/skaramje/RealTimeBusTracker/main/index.html)
 
 ## Installation:
