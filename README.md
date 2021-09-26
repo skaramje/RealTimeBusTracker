@@ -16,4 +16,4 @@ For any questions, find me on [linkedin](https://www.linkedin.com/in/simrat-kara
 The future roadmap involves adding more routes and buses in each route to the map
 
 ## License
-License information: This project is licensed under the [MIT License](https://github.com/skaramje/PacMen-Exercise/blob/main/LICENSE)
+This project is licensed under the [MIT License](https://github.com/skaramje/PacMen-Exercise/blob/main/LICENSE)
