@@ -12,3 +12,5 @@ Support: For any questions, message me on linkedin: https://www.linkedin.com/in/
 Roadmap: The aim is to add more routes to the map
 
 License information: This project is licensed under the MIT License.
+
+[click here](https://raw.githack.com/skaramje/RealTimeBusTracker/main/index.html)
