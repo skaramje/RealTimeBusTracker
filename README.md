@@ -1,5 +1,5 @@
 # Real Time Bus Tracker
-Tracks the bus location of a bus in route 1 (from MIT to Harvard) in realtime [To preview click here](https://raw.githack.com/skaramje/RealTimeBusTracker/main/index.html)
+Tracks the bus location of a bus in route 1 (from MIT to Harvard) in realtime [To preview click here](https://skaramje.github.io/RealTimeBusTracker/)
 
 ## Installation:
 Save the html, css and javascript files in one folder.  Drag and drop the html file in a chrome browser to run.  Click on the button 'Real Time Bus Tracker' to see the live location 
